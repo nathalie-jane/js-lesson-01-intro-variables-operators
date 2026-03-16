@@ -8,3 +8,16 @@ let message = "Hello, World!";
 
 // Output message
 console.log(message);
+
+/* ====================================================
+    EXERCISE 2
+    Store and print message with template literals
+======================================================= */
+
+// Store personal information in three separate variables
+let fName = "Nathalie";
+const age = 34;
+let favColor = "Black";
+
+// Output personal information
+console.log(`My name is ${fName}, I'm ${age} years old and my favorite color is ${favColor}.`);
