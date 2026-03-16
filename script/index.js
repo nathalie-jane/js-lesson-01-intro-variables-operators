@@ -15,12 +15,12 @@ console.log(message);
 ======================================================= */
 
 // Store personal information in three separate variables
-let fName = "Nathalie";
+let firstName = "Nathalie";
 let age = 34;
-let favColor = "black";
+let favoriteColor = "black";
 
 // Output personal information
-console.log(`My name is ${fName}, I'm ${age} years old and my favorite color is ${favColor}.`);
+console.log(`My name is ${firstName}, I'm ${age} years old and my favorite color is ${favoriteColor}.`);
 
 /* ====================================================
     EXERCISE 3
@@ -28,17 +28,17 @@ console.log(`My name is ${fName}, I'm ${age} years old and my favorite color is 
 ======================================================= */
 
 // Store numbers in two separate variables
-let numX = 12; 
-let numY = 4;
+let number1 = 12; 
+let number2 = 4;
 
 // Perform calculations
-let add = numX + numY;
-let sub = numX - numY;
-let mul = numX * numY;
-let div = numX / numY;
+let addition = number1 + number2;
+let subtraction = number1 - number2;
+let multiplication = number1 * number2;
+let division = number1 / number2;
 
 // Output calculated results
-console.log(`${numX} + ${numY} = ${add}`);
-console.log(`${numX} - ${numY} = ${sub}`);
-console.log(`${numX} * ${numY} = ${mul}`);
-console.log(`${numX} / ${numY} = ${div}`);
+console.log(`${number1} + ${number2} = ${addition}`);
+console.log(`${number1} - ${number2} = ${subtraction}`);
+console.log(`${number1} * ${number2} = ${multiplication}`);
+console.log(`${number1} / ${number2} = ${division}`);
