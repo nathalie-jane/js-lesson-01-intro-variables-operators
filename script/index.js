@@ -16,8 +16,8 @@ console.log(message);
 
 // Store personal information in three separate variables
 let fName = "Nathalie";
-const age = 34;
-let favColor = "Black";
+let age = 34;
+let favColor = "black";
 
 // Output personal information
 console.log(`My name is ${fName}, I'm ${age} years old and my favorite color is ${favColor}.`);
@@ -28,14 +28,14 @@ console.log(`My name is ${fName}, I'm ${age} years old and my favorite color is 
 ======================================================= */
 
 // Store numbers in two separate variables
-const numX = 12; 
-const numY = 4;
+let numX = 12; 
+let numY = 4;
 
 // Perform calculations
-const add = numX + numY;
-const sub = numX - numY;
-const mul = numX * numY;
-const div = numX / numY;
+let add = numX + numY;
+let sub = numX - numY;
+let mul = numX * numY;
+let div = numX / numY;
 
 // Output calculated results
 console.log(`${numX} + ${numY} = ${add}`);
